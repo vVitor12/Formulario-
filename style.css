@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkslategrey;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: beige;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Limita o tamanho para não ficar gigante */
+    gap: 1rem; /* Espaçamento entre os elementos */
+    background: #1c3b3a;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+label {
+    color: beige;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+button {
+    padding: 0.75rem;
+    background: teal;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: darkcyan;
+}
+
